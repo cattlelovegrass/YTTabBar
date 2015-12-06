@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D45BA0D1C14680A00A401E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45BA0C1C14680A00A401E2 /* main.m */; };
+		4D45BA101C14680A00A401E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45BA0F1C14680A00A401E2 /* AppDelegate.m */; };
+		4D45BA131C14680A00A401E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45BA121C14680A00A401E2 /* ViewController.m */; };
+		4D45BA161C14680A00A401E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BA141C14680A00A401E2 /* Main.storyboard */; };
+		4D45BA181C14680A00A401E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BA171C14680A00A401E2 /* Assets.xcassets */; };
+		4D45BA1B1C14680A00A401E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BA191C14680A00A401E2 /* LaunchScreen.storyboard */; };
+		4D45BA261C14680B00A401E2 /* YTTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45BA251C14680B00A401E2 /* YTTabBarControllerTests.m */; };
+		4D45BA311C14680B00A401E2 /* YTTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45BA301C14680B00A401E2 /* YTTabBarControllerUITests.m */; };
+		4D45BA401C1469D700A401E2 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45BA3F1C1469D700A401E2 /* MineViewController.m */; };
+		4D45BA431C1469EF00A401E2 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45BA421C1469EF00A401E2 /* ContactsViewController.m */; };
+		4D45BA461C1469FE00A401E2 /* CompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45BA451C1469FE00A401E2 /* CompanyViewController.m */; };
+		4D45BA4D1C146BBE00A401E2 /* company@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BA471C146BBE00A401E2 /* company@2x.png */; };
+		4D45BA4E1C146BBE00A401E2 /* contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BA481C146BBE00A401E2 /* contact@2x.png */; };
+		4D45BA4F1C146BBE00A401E2 /* mine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BA491C146BBE00A401E2 /* mine@2x.png */; };
+		4D45BA501C146BBE00A401E2 /* companyH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BA4A1C146BBE00A401E2 /* companyH@2x.png */; };
+		4D45BA511C146BBE00A401E2 /* contactH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BA4B1C146BBE00A401E2 /* contactH@2x.png */; };
+		4D45BA521C146BBE00A401E2 /* mineH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BA4C1C146BBE00A401E2 /* mineH@2x.png */; };
+		4D45BA551C14700B00A401E2 /* YTTableVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45BA541C14700B00A401E2 /* YTTableVIew.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D45BA221C14680B00A401E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D45BA001C14680A00A401E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D45BA071C14680A00A401E2;
+			remoteInfo = YTTabBarController;
+		};
+		4D45BA2D1C14680B00A401E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D45BA001C14680A00A401E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D45BA071C14680A00A401E2;
+			remoteInfo = YTTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D45BA081C14680A00A401E2 /* YTTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D45BA0C1C14680A00A401E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D45BA0E1C14680A00A401E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D45BA0F1C14680A00A401E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D45BA111C14680A00A401E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D45BA121C14680A00A401E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D45BA151C14680A00A401E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D45BA171C14680A00A401E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D45BA1A1C14680A00A401E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D45BA1C1C14680A00A401E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D45BA211C14680B00A401E2 /* YTTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D45BA251C14680B00A401E2 /* YTTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTabBarControllerTests.m; sourceTree = "<group>"; };
+		4D45BA271C14680B00A401E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D45BA2C1C14680B00A401E2 /* YTTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D45BA301C14680B00A401E2 /* YTTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTabBarControllerUITests.m; sourceTree = "<group>"; };
+		4D45BA321C14680B00A401E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D45BA3E1C1469D700A401E2 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		4D45BA3F1C1469D700A401E2 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		4D45BA411C1469EF00A401E2 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		4D45BA421C1469EF00A401E2 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		4D45BA441C1469FE00A401E2 /* CompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyViewController.h; sourceTree = "<group>"; };
+		4D45BA451C1469FE00A401E2 /* CompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyViewController.m; sourceTree = "<group>"; };
+		4D45BA471C146BBE00A401E2 /* company@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "company@2x.png"; sourceTree = "<group>"; };
+		4D45BA481C146BBE00A401E2 /* contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact@2x.png"; sourceTree = "<group>"; };
+		4D45BA491C146BBE00A401E2 /* mine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine@2x.png"; sourceTree = "<group>"; };
+		4D45BA4A1C146BBE00A401E2 /* companyH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "companyH@2x.png"; sourceTree = "<group>"; };
+		4D45BA4B1C146BBE00A401E2 /* contactH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contactH@2x.png"; sourceTree = "<group>"; };
+		4D45BA4C1C146BBE00A401E2 /* mineH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mineH@2x.png"; sourceTree = "<group>"; };
+		4D45BA531C14700B00A401E2 /* YTTableVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTTableVIew.h; sourceTree = "<group>"; };
+		4D45BA541C14700B00A401E2 /* YTTableVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTTableVIew.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D45BA051C14680A00A401E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D45BA1E1C14680B00A401E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D45BA291C14680B00A401E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D45B9FF1C14680A00A401E2 = {
+			isa = PBXGroup;
+			children = (
+				4D45BA0A1C14680A00A401E2 /* YTTabBarController */,
+				4D45BA241C14680B00A401E2 /* YTTabBarControllerTests */,
+				4D45BA2F1C14680B00A401E2 /* YTTabBarControllerUITests */,
+				4D45BA091C14680A00A401E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D45BA091C14680A00A401E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D45BA081C14680A00A401E2 /* YTTabBarController.app */,
+				4D45BA211C14680B00A401E2 /* YTTabBarControllerTests.xctest */,
+				4D45BA2C1C14680B00A401E2 /* YTTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D45BA0A1C14680A00A401E2 /* YTTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4D45BA0E1C14680A00A401E2 /* AppDelegate.h */,
+				4D45BA0F1C14680A00A401E2 /* AppDelegate.m */,
+				4D45BA111C14680A00A401E2 /* ViewController.h */,
+				4D45BA121C14680A00A401E2 /* ViewController.m */,
+				4D45BA3E1C1469D700A401E2 /* MineViewController.h */,
+				4D45BA3F1C1469D700A401E2 /* MineViewController.m */,
+				4D45BA531C14700B00A401E2 /* YTTableVIew.h */,
+				4D45BA541C14700B00A401E2 /* YTTableVIew.m */,
+				4D45BA411C1469EF00A401E2 /* ContactsViewController.h */,
+				4D45BA421C1469EF00A401E2 /* ContactsViewController.m */,
+				4D45BA441C1469FE00A401E2 /* CompanyViewController.h */,
+				4D45BA451C1469FE00A401E2 /* CompanyViewController.m */,
+				4D45BA141C14680A00A401E2 /* Main.storyboard */,
+				4D45BA171C14680A00A401E2 /* Assets.xcassets */,
+				4D45BA191C14680A00A401E2 /* LaunchScreen.storyboard */,
+				4D45BA1C1C14680A00A401E2 /* Info.plist */,
+				4D45BA0B1C14680A00A401E2 /* Supporting Files */,
+			);
+			path = YTTabBarController;
+			sourceTree = "<group>";
+		};
+		4D45BA0B1C14680A00A401E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D45BA471C146BBE00A401E2 /* company@2x.png */,
+				4D45BA481C146BBE00A401E2 /* contact@2x.png */,
+				4D45BA491C146BBE00A401E2 /* mine@2x.png */,
+				4D45BA4A1C146BBE00A401E2 /* companyH@2x.png */,
+				4D45BA4B1C146BBE00A401E2 /* contactH@2x.png */,
+				4D45BA4C1C146BBE00A401E2 /* mineH@2x.png */,
+				4D45BA0C1C14680A00A401E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D45BA241C14680B00A401E2 /* YTTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D45BA251C14680B00A401E2 /* YTTabBarControllerTests.m */,
+				4D45BA271C14680B00A401E2 /* Info.plist */,
+			);
+			path = YTTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		4D45BA2F1C14680B00A401E2 /* YTTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D45BA301C14680B00A401E2 /* YTTabBarControllerUITests.m */,
+				4D45BA321C14680B00A401E2 /* Info.plist */,
+			);
+			path = YTTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D45BA071C14680A00A401E2 /* YTTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D45BA351C14680B00A401E2 /* Build configuration list for PBXNativeTarget "YTTabBarController" */;
+			buildPhases = (
+				4D45BA041C14680A00A401E2 /* Sources */,
+				4D45BA051C14680A00A401E2 /* Frameworks */,
+				4D45BA061C14680A00A401E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTTabBarController;
+			productName = YTTabBarController;
+			productReference = 4D45BA081C14680A00A401E2 /* YTTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D45BA201C14680B00A401E2 /* YTTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D45BA381C14680B00A401E2 /* Build configuration list for PBXNativeTarget "YTTabBarControllerTests" */;
+			buildPhases = (
+				4D45BA1D1C14680B00A401E2 /* Sources */,
+				4D45BA1E1C14680B00A401E2 /* Frameworks */,
+				4D45BA1F1C14680B00A401E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D45BA231C14680B00A401E2 /* PBXTargetDependency */,
+			);
+			name = YTTabBarControllerTests;
+			productName = YTTabBarControllerTests;
+			productReference = 4D45BA211C14680B00A401E2 /* YTTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D45BA2B1C14680B00A401E2 /* YTTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D45BA3B1C14680B00A401E2 /* Build configuration list for PBXNativeTarget "YTTabBarControllerUITests" */;
+			buildPhases = (
+				4D45BA281C14680B00A401E2 /* Sources */,
+				4D45BA291C14680B00A401E2 /* Frameworks */,
+				4D45BA2A1C14680B00A401E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D45BA2E1C14680B00A401E2 /* PBXTargetDependency */,
+			);
+			name = YTTabBarControllerUITests;
+			productName = YTTabBarControllerUITests;
+			productReference = 4D45BA2C1C14680B00A401E2 /* YTTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D45BA001C14680A00A401E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = youyou;
+				TargetAttributes = {
+					4D45BA071C14680A00A401E2 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4D45BA201C14680B00A401E2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4D45BA071C14680A00A401E2;
+					};
+					4D45BA2B1C14680B00A401E2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4D45BA071C14680A00A401E2;
+					};
+				};
+			};
+			buildConfigurationList = 4D45BA031C14680A00A401E2 /* Build configuration list for PBXProject "YTTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D45B9FF1C14680A00A401E2;
+			productRefGroup = 4D45BA091C14680A00A401E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D45BA071C14680A00A401E2 /* YTTabBarController */,
+				4D45BA201C14680B00A401E2 /* YTTabBarControllerTests */,
+				4D45BA2B1C14680B00A401E2 /* YTTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D45BA061C14680A00A401E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D45BA511C146BBE00A401E2 /* contactH@2x.png in Resources */,
+				4D45BA1B1C14680A00A401E2 /* LaunchScreen.storyboard in Resources */,
+				4D45BA181C14680A00A401E2 /* Assets.xcassets in Resources */,
+				4D45BA521C146BBE00A401E2 /* mineH@2x.png in Resources */,
+				4D45BA4D1C146BBE00A401E2 /* company@2x.png in Resources */,
+				4D45BA501C146BBE00A401E2 /* companyH@2x.png in Resources */,
+				4D45BA161C14680A00A401E2 /* Main.storyboard in Resources */,
+				4D45BA4E1C146BBE00A401E2 /* contact@2x.png in Resources */,
+				4D45BA4F1C146BBE00A401E2 /* mine@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D45BA1F1C14680B00A401E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D45BA2A1C14680B00A401E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D45BA041C14680A00A401E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D45BA461C1469FE00A401E2 /* CompanyViewController.m in Sources */,
+				4D45BA131C14680A00A401E2 /* ViewController.m in Sources */,
+				4D45BA101C14680A00A401E2 /* AppDelegate.m in Sources */,
+				4D45BA551C14700B00A401E2 /* YTTableVIew.m in Sources */,
+				4D45BA431C1469EF00A401E2 /* ContactsViewController.m in Sources */,
+				4D45BA0D1C14680A00A401E2 /* main.m in Sources */,
+				4D45BA401C1469D700A401E2 /* MineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D45BA1D1C14680B00A401E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D45BA261C14680B00A401E2 /* YTTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D45BA281C14680B00A401E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D45BA311C14680B00A401E2 /* YTTabBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D45BA231C14680B00A401E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D45BA071C14680A00A401E2 /* YTTabBarController */;
+			targetProxy = 4D45BA221C14680B00A401E2 /* PBXContainerItemProxy */;
+		};
+		4D45BA2E1C14680B00A401E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D45BA071C14680A00A401E2 /* YTTabBarController */;
+			targetProxy = 4D45BA2D1C14680B00A401E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D45BA141C14680A00A401E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D45BA151C14680A00A401E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D45BA191C14680A00A401E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D45BA1A1C14680A00A401E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D45BA331C14680B00A401E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D45BA341C14680B00A401E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D45BA361C14680B00A401E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YT.YTTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D45BA371C14680B00A401E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YT.YTTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D45BA391C14680B00A401E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YTTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YT.YTTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTTabBarController.app/YTTabBarController";
+			};
+			name = Debug;
+		};
+		4D45BA3A1C14680B00A401E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YTTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YT.YTTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTTabBarController.app/YTTabBarController";
+			};
+			name = Release;
+		};
+		4D45BA3C1C14680B00A401E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YTTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YT.YTTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YTTabBarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4D45BA3D1C14680B00A401E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YTTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YT.YTTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YTTabBarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D45BA031C14680A00A401E2 /* Build configuration list for PBXProject "YTTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D45BA331C14680B00A401E2 /* Debug */,
+				4D45BA341C14680B00A401E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D45BA351C14680B00A401E2 /* Build configuration list for PBXNativeTarget "YTTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D45BA361C14680B00A401E2 /* Debug */,
+				4D45BA371C14680B00A401E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D45BA381C14680B00A401E2 /* Build configuration list for PBXNativeTarget "YTTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D45BA391C14680B00A401E2 /* Debug */,
+				4D45BA3A1C14680B00A401E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D45BA3B1C14680B00A401E2 /* Build configuration list for PBXNativeTarget "YTTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D45BA3C1C14680B00A401E2 /* Debug */,
+				4D45BA3D1C14680B00A401E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D45BA001C14680A00A401E2 /* Project object */;
+}
