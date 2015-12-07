@@ -20,7 +20,7 @@
     [super viewDidLoad];
     self.title = @"关于我";
     YTTableVIew *tableView = [[YTTableVIew alloc]initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height) style:UITableViewStylePlain];
-    tableView.titleString = @"youyou";
+//    tableView.titleString = @"youyou";
     [self.view addSubview:tableView];
     // Do any additional setup after loading the view.
 }
