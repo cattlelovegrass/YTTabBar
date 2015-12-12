@@ -6,11 +6,13 @@
 //  Copyright © 2015年 youyou. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
 
-@interface YTTableVIew : UITableView<UITableViewDelegate,UITableViewDataSource>
+#import "BaseTableView.h"
 
-@property(nonatomic,strong)NSString *titleString;
+@interface YTTableVIew : BaseTableView
+
+//@property(nonatomic,strong)NSString *titleString;
 
 
 @end

@@ -7,15 +7,15 @@
 //
 
 #import "YTTableVIew.h"
+#import "YTItemCell.h"
 
 @implementation YTTableVIew
 
 -(id)initWithFrame:(CGRect)frame style:(UITableViewStyle)style
 {
-    self = [super initWithFrame:frame style:style];
+    self = [super initWithFrame:frame style:style reuseCellClassName:@"YTItemCell"];
     if(self) {
-        self.delegate = self;
-        self.dataSource = self;
+        
         UIView *footerView = [[UIView alloc]init];
         footerView.backgroundColor = [UIColor whiteColor];
         [self setTableFooterView:footerView];
@@ -23,22 +23,19 @@
     }
     return self;
 }
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 4;
-}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *ident = @"ident";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ident];
-    if(cell == nil) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ident];
-    }
-    cell.textLabel.text = self.titleString;
+    YTItemCell *cell = (YTItemCell *)[super tableView:tableView cellForRowAtIndexPath:indexPath];
     return cell;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 50;
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 30;
 }
+
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+//    return 50;
+//}
 
 
 /*

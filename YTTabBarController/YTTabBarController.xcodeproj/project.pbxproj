@@ -25,6 +25,9 @@
 		4D45BA511C146BBE00A401E2 /* contactH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BA4B1C146BBE00A401E2 /* contactH@2x.png */; };
 		4D45BA521C146BBE00A401E2 /* mineH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BA4C1C146BBE00A401E2 /* mineH@2x.png */; };
 		4D45BA551C14700B00A401E2 /* YTTableVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45BA541C14700B00A401E2 /* YTTableVIew.m */; };
+		83F13E991C15DC6A00444936 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F13E981C15DC6A00444936 /* BaseTableView.m */; settings = {ASSET_TAGS = (); }; };
+		83F13E9C1C15E0BD00444936 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F13E9B1C15E0BD00444936 /* BaseTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		83F13E9F1C15E3CA00444936 /* YTItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F13E9E1C15E3CA00444936 /* YTItemCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,12 @@
 		4D45BA4C1C146BBE00A401E2 /* mineH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mineH@2x.png"; sourceTree = "<group>"; };
 		4D45BA531C14700B00A401E2 /* YTTableVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTTableVIew.h; sourceTree = "<group>"; };
 		4D45BA541C14700B00A401E2 /* YTTableVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTTableVIew.m; sourceTree = "<group>"; };
+		83F13E971C15DC6A00444936 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		83F13E981C15DC6A00444936 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		83F13E9A1C15E0BD00444936 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		83F13E9B1C15E0BD00444936 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		83F13E9D1C15E3CA00444936 /* YTItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTItemCell.h; sourceTree = "<group>"; };
+		83F13E9E1C15E3CA00444936 /* YTItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTItemCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,7 @@
 		4D45B9FF1C14680A00A401E2 = {
 			isa = PBXGroup;
 			children = (
+				83F13E951C15DC1000444936 /* Classes */,
 				4D45BA0A1C14680A00A401E2 /* YTTabBarController */,
 				4D45BA241C14680B00A401E2 /* YTTabBarControllerTests */,
 				4D45BA2F1C14680B00A401E2 /* YTTabBarControllerUITests */,
@@ -133,6 +143,8 @@
 				4D45BA3F1C1469D700A401E2 /* MineViewController.m */,
 				4D45BA531C14700B00A401E2 /* YTTableVIew.h */,
 				4D45BA541C14700B00A401E2 /* YTTableVIew.m */,
+				83F13E9D1C15E3CA00444936 /* YTItemCell.h */,
+				83F13E9E1C15E3CA00444936 /* YTItemCell.m */,
 				4D45BA411C1469EF00A401E2 /* ContactsViewController.h */,
 				4D45BA421C1469EF00A401E2 /* ContactsViewController.m */,
 				4D45BA441C1469FE00A401E2 /* CompanyViewController.h */,
@@ -176,6 +188,25 @@
 				4D45BA321C14680B00A401E2 /* Info.plist */,
 			);
 			path = YTTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		83F13E951C15DC1000444936 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83F13E961C15DC1F00444936 /* BaseClasses */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		83F13E961C15DC1F00444936 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				83F13E971C15DC6A00444936 /* BaseTableView.h */,
+				83F13E981C15DC6A00444936 /* BaseTableView.m */,
+				83F13E9A1C15E0BD00444936 /* BaseTableViewCell.h */,
+				83F13E9B1C15E0BD00444936 /* BaseTableViewCell.m */,
+			);
+			name = BaseClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,9 +345,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F13E9C1C15E0BD00444936 /* BaseTableViewCell.m in Sources */,
+				83F13E991C15DC6A00444936 /* BaseTableView.m in Sources */,
 				4D45BA461C1469FE00A401E2 /* CompanyViewController.m in Sources */,
 				4D45BA131C14680A00A401E2 /* ViewController.m in Sources */,
 				4D45BA101C14680A00A401E2 /* AppDelegate.m in Sources */,
+				83F13E9F1C15E3CA00444936 /* YTItemCell.m in Sources */,
 				4D45BA551C14700B00A401E2 /* YTTableVIew.m in Sources */,
 				4D45BA431C1469EF00A401E2 /* ContactsViewController.m in Sources */,
 				4D45BA0D1C14680A00A401E2 /* main.m in Sources */,
@@ -462,6 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YTTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YT.YTTabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -473,6 +508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YTTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YT.YTTabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -546,6 +582,7 @@
 				4D45BA371C14680B00A401E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D45BA381C14680B00A401E2 /* Build configuration list for PBXNativeTarget "YTTabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +591,7 @@
 				4D45BA3A1C14680B00A401E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D45BA3B1C14680B00A401E2 /* Build configuration list for PBXNativeTarget "YTTabBarControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +600,7 @@
 				4D45BA3D1C14680B00A401E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
