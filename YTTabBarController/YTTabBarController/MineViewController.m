@@ -15,12 +15,21 @@
 @end
 
 @implementation MineViewController
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if(self) {
+        self.tabBarController.tabBar.hidden = NO;
+        self.title = @"我的";
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"关于我";
+//    self.title = @"关于我";
     YTTableVIew *tableView = [[YTTableVIew alloc]initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height) style:UITableViewStylePlain];
-//    tableView.titleString = @"youyou";
+    tableView.items = @[@"1",@"1",@"1"];
     [self.view addSubview:tableView];
     // Do any additional setup after loading the view.
 }

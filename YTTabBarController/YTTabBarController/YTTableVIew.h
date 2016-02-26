@@ -12,7 +12,6 @@
 
 @interface YTTableVIew : BaseTableView
 
-//@property(nonatomic,strong)NSString *titleString;
 
 
 @end

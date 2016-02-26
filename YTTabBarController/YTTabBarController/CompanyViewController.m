@@ -17,10 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"我的公司";
-    YTTableVIew *tableView = [[YTTableVIew alloc]initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height) style:UITableViewStylePlain];
-//    tableView.titleString = @"hello iOS";
-    [self.view addSubview:tableView];
+//    self.title = @"我的公司";
+//    YTTableVIew *tableView = [[YTTableVIew alloc]initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height) style:UITableViewStylePlain];
+////    tableView.titleString = @"hello iOS";
+//    [self.view addSubview:tableView];
     // Do any additional setup after loading the view.
 }
 

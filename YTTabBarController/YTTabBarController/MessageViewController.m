@@ -1,32 +1,32 @@
 //
-//  ContactsViewController.m
+//  MessageViewController.m
 //  YTTabBarController
 //
-//  Created by youyou on 15/12/6.
-//  Copyright © 2015年 youyou. All rights reserved.
+//  Created by LinShang on 16/2/25.
+//  Copyright © 2016年 youyou. All rights reserved.
 //
 
-#import "ContactsViewController.h"
+#import "MessageViewController.h"
 #import "YTTableVIew.h"
 
-@interface ContactsViewController ()
-//@property(nonatomic,strong)
+@interface MessageViewController ()
+
 @end
 
-@implementation ContactsViewController
+@implementation MessageViewController
 
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if(self) {
         self.tabBarController.tabBar.hidden = NO;
-        self.title = @"我的通讯录";
+        self.title = @"消息";
     }
     return self;
 }
-
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
 
     YTTableVIew *tableView = [[YTTableVIew alloc]initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height) style:UITableViewStyleGrouped];
     tableView.multipleSection = YES;
